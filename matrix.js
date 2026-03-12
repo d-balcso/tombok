@@ -68,3 +68,14 @@ for (let i = 0; i < matrix.length; i++) {
 for (const element of oszlopOsszegek) {
     console.log(element);
 }
+
+// C
+let foAtloOsszeg1 = 0
+let foAtloOsszeg2 = 0
+for (let i = 0; i < matrix.length; i++) {
+    foAtloOsszeg1 += matrix[i][i];
+    foAtloOsszeg2 += matrix[i][(matrix.length - 1) - i];
+}
+console.log("atlo1: " + foAtloOsszeg1);
+console.log("atlo2: " + foAtloOsszeg2);
+
