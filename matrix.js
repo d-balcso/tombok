@@ -64,3 +64,7 @@ for (let i = 0; i < matrix.length; i++) {
     }
     console.log(oszlopOsszeg);
 }
+
+for (const element of oszlopOsszegek) {
+    console.log(element);
+}
